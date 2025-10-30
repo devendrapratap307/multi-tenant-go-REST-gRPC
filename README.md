@@ -234,6 +234,38 @@ docker run -p 8080:8080 -p 50051:50051 --env-file .env multi-tenant-go
 
 ---
 
+---
+## Step-by-Step Guide: Multi-Tenant Go Application Setup (Wire + GORM + Fiber + gRPC)
+#### This guide walks through creating a production-ready multi-tenant Go application using Google Wire, GORM, Fiber, and gRPC.
+
+## Install Required Tools
+go install github.com/google/wire/cmd/wire@latest
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+brew install protobuf # or sudo apt install protobuf-compiler
+
+protoc --version
+wire --version
+
+## Bootstrap the Project
+```bash
+    mkdir go-multitenant
+    cd go-multitenant
+    go mod init go-multitenant
+```
+## Add dependencies:
+```bash
+    go get github.com/gofiber/fiber/v2
+    go get github.com/google/wire
+    go get gorm.io/gorm
+    go get gorm.io/driver/postgres
+    go get google.golang.org/grpc
+    go get google.golang.org/protobuf
+```
+## Create Folder Structure
+mkdir -p cmd internal/{app,db,handler,repo,service,model,proto}
+---
+
 ## 👨‍💻 Author
 
 **Devendra Pratap**  
