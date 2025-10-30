@@ -130,7 +130,7 @@ wire
 ## 🌐 Run REST API
 
 ```bash
-go run cmd/rest/main.go
+go run cmd/main.go
 ```
 
 ### Example REST Endpoints
@@ -183,9 +183,11 @@ protoc --go_out=. --go-grpc_out=. ./user.proto
 ## 🥪 Run REST + gRPC Together
 
 ### Option 1 — Run Separately
+##### but here: go run ./cmd
 ```bash
 go run cmd/rest/main.go
 go run cmd/grpc/main.go
+
 ```
 
 ### Option 2 — Unified Injector (Advanced)
