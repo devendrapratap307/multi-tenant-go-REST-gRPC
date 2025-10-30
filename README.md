@@ -267,7 +267,9 @@ wire --version
     go get google.golang.org/protobuf
 ```
 ## Create Folder Structure
+```bash
 mkdir -p cmd internal/{app,db,handler,repo,service,model,proto}
+```
 ---
 
 ## 👨‍💻 Author
