@@ -274,7 +274,7 @@ mkdir -p cmd internal/{app,db,handler,repo,service,model,proto}
 ## 👨‍💻 Author
 
 **Devendra Pratap**  
-Backend Engineer — Go | Spring Boot | PostgreSQL | Kafka  
+Software Developer — Go | Java | Spring Boot | Angular | Typescript | WebSocket | MongoDB | MySQL | Redis | Kafka 
 
 [![GitHub](https://img.shields.io/badge/GitHub-DevendraPratap-black?logo=github)](https://github.com/devendrapratap307/)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-DevendraPratap-blue?logo=linkedin)](https://linkedin.com/in/devendrapratap307/)  
