@@ -2,7 +2,6 @@
 
 ![Go Version](https://img.shields.io/badge/Go-1.22%2B-00ADD8?logo=go)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-336791?logo=postgresql)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 A **multi-tenant application** built with **Go (Golang)**, featuring both **REST** and **gRPC** interfaces.  
